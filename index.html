@@ -1,0 +1,18 @@
+<html ng-app="SecondApp">
+  <head>
+    <title>Second App</title>
+    <script src="https://code.angularjs.org/1.6.1/angular.js"></script>
+    <script src="https://code.angularjs.org/1.6.1/angular-route.js"></script>
+
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body ng-controller="SecondController">
+    {{something}}
+    <div>
+      <a href="#!/register">Registration</a>
+      <a href="#!/login">Login</a>
+    </div>
+    <div ng-view></div>
+  </body>
+</html>
